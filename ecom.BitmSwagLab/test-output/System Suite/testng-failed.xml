@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [System Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="System Testing(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="system"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SAUCECHECKOUT.CheckoutTS3">
+        <methods>
+          <include name="verifyCompleteOrder"/>
+        </methods>
+      </class> <!-- SAUCECHECKOUT.CheckoutTS3 -->
+      <class name="SAUCELOGINPAGE.LoginTest">
+        <methods>
+          <include name="verifyLoginPageElements"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginTest -->
+      <class name="SAUCEPRODUCT.ProductTest">
+        <methods>
+          <include name="verifyProductElements"/>
+        </methods>
+      </class> <!-- SAUCEPRODUCT.ProductTest -->
+    </classes>
+  </test> <!-- System Testing(failed) -->
+</suite> <!-- Failed suite [System Suite] -->

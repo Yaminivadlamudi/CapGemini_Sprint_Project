@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Suite">
+
+    <test name="Functional Testing">
+
+        <parameter name="browser"
+                   value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="functional"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="SAUCELOGINPAGE.LoginTest"/>
+            <class name="SAUCEPRODUCT.ProductTest"/>
+            <class name="SAUCECHECKOUT.CheckoutTS1"/>
+            <class name="SAUCECHECKOUT.CheckoutTS2"/>
+            <class name="SAUCECHECKOUT.CheckoutTS3"/>
+
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integration Tests(failed)">
+    <groups>
+      <run>
+        <include name="integration"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SAUCELOGINPAGE.LoginPositiveTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDatabaseConnectivity"/>
+          <include name="integrationLoginTest"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginPositiveTest -->
+      <class name="SAUCELOGINPAGE.LoginNegativeTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="integrationNegativeLoginTest"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginNegativeTest -->
+    </classes>
+  </test> <!-- Integration Tests(failed) -->
+</suite> <!-- Failed suite [Integration Suite] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Tests(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SAUCECHECKOUT.CheckoutNegativeTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="verifyCheckoutValidation" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCECHECKOUT.CheckoutNegativeTest -->
+      <class name="SAUCELOGINPAGE.LoginPositiveTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="functionalLoginTest"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginPositiveTest -->
+      <class name="SAUCELOGINPAGE.LoginNegativeTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="functionalNegativeLoginTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginNegativeTest -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

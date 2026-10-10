@@ -1,0 +1,463 @@
+<html>
+<head>
+<title>TestNG:  Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 11:21:48 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104266 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>functional </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SAUCELOGINPAGE.LoginNegativeTest.functionalNegativeLoginTest()'><b>functionalNegativeLoginTest</b><br>Test class: SAUCELOGINPAGE.LoginNegativeTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginNegativeTest.functionalNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : negativeLoginData in class SAUCECHECKOUT.DataProviderClass
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace501705927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace501705927'><pre>org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginNegativeTest.functionalNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : negativeLoginData in class SAUCECHECKOUT.DataProviderClass
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>SAUCELOGINPAGE.LoginNegativeTest@610f7aa</td></tr>
+<tr>
+<td title='SAUCECHECKOUT.CheckoutNegativeTest.verifyCheckoutValidation()'><b>verifyCheckoutValidation</b><br>Test class: SAUCECHECKOUT.CheckoutNegativeTest<br>Parameters: Sauce_demo, secret_sauce, , Tester, , Missing first name negative checkout, CHECKOUT_ERROR<br/>
+<a href="#Output-1432687668" onClick='toggleBox("Output-1432687668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1432687668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1432687668">
+Scenario: Missing first name negative checkout<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Login failed for scenario: Missing first name negative checkout. Actual error: Epic sadface: Username and password do not match any user in this service
+	at SAUCECHECKOUT.CheckoutNegativeTest.verifyCheckoutValidation(CheckoutNegativeTest.java:190)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1432687668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1432687668'><pre>java.lang.AssertionError: Login failed for scenario: Missing first name negative checkout. Actual error: Epic sadface: Username and password do not match any user in this service
+	at org.testng.Assert.fail(Assert.java:111)
+	at SAUCECHECKOUT.CheckoutNegativeTest.verifyCheckoutValidation(CheckoutNegativeTest.java:190)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>SAUCECHECKOUT.CheckoutNegativeTest@11fc564b</td></tr>
+<tr>
+<td title='SAUCELOGINPAGE.LoginPositiveTest.functionalLoginTest()'><b>functionalLoginTest</b><br>Test class: SAUCELOGINPAGE.LoginPositiveTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginPositiveTest.functionalLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : positiveLoginData in class SAUCECHECKOUT.DataProviderClass
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1744457797", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1744457797'><pre>org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginPositiveTest.functionalLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : positiveLoginData in class SAUCECHECKOUT.DataProviderClass
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>SAUCELOGINPAGE.LoginPositiveTest@17a7f733</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifySortNameZToA()'><b>verifySortNameZToA</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-1562516256" onClick='toggleBox("Output-1562516256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562516256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562516256">
+PASS: Products sorted Z to A<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyCheckoutNavigation()'><b>verifyCheckoutNavigation</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-802395190" onClick='toggleBox("Output-802395190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-802395190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-802395190">
+PASS: Checkout information page opened<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SauceLogout.LogoutNegativeTest.verifyLogoutMenuAfterLogout()'><b>verifyLogoutMenuAfterLogout</b><br>Test class: SauceLogout.LogoutNegativeTest<br/>
+<a href="#Output-1387556178" onClick='toggleBox("Output-1387556178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1387556178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1387556178">
+PASS: Logout completed and product page is no longer open<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SauceLogout.LogoutNegativeTest@7c1e2a9e</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifySortNameAToZ()'><b>verifySortNameAToZ</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-668707379" onClick='toggleBox("Output-668707379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-668707379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-668707379">
+PASS: Products sorted A to Z<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SAUCECHECKOUT.CheckoutPositiveTest.verifySuccessfulCheckout()'><b>verifySuccessfulCheckout</b><br>Test class: SAUCECHECKOUT.CheckoutPositiveTest<br>Parameters: standard_user, secret_sauce, ramul, Tester, 583101, Valid login and checkout, SUCCESS<br/>
+<a href="#Output-70061633" onClick='toggleBox("Output-70061633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70061633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70061633">
+Scenario: Valid login and checkout<br/>
+PASS: Login successful<br/>
+PASS: Checkout overview displayed<br/>
+PASS: Order summary verified<br/>
+PASS: Order completed successfully<br/>
+PASS: Returned to products page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>SAUCECHECKOUT.CheckoutPositiveTest@394a2528</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyAddBackpackToCart()'><b>verifyAddBackpackToCart</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-933869191" onClick='toggleBox("Output-933869191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-933869191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-933869191">
+PASS: Backpack added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyRemoveBackpackFromCart()'><b>verifyRemoveBackpackFromCart</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-46727015" onClick='toggleBox("Output-46727015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-46727015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-46727015">
+PASS: Backpack removed from cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SauceLogout.LogoutPositiveTest.verifySuccessfulLogout()'><b>verifySuccessfulLogout</b><br>Test class: SauceLogout.LogoutPositiveTest<br/>
+<a href="#Output-722844186" onClick='toggleBox("Output-722844186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722844186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722844186">
+PASS: User logged out successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SauceLogout.LogoutPositiveTest@fa36558</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifySortPriceHighToLow()'><b>verifySortPriceHighToLow</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-14295722" onClick='toggleBox("Output-14295722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14295722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14295722">
+PASS: Prices sorted high to low<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductNegativeTest.verifyEmptyCart()'><b>verifyEmptyCart</b><br>Test class: SAUCEPRODUCT.ProductNegativeTest<br/>
+<a href="#Output-1509713998" onClick='toggleBox("Output-1509713998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509713998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509713998">
+PASS: Empty cart verified<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>SAUCEPRODUCT.ProductNegativeTest@68567e20</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyProductCount()'><b>verifyProductCount</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-1452493025" onClick='toggleBox("Output-1452493025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1452493025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1452493025">
+PASS: Total 6 products displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SauceLogout.LogoutPositiveTest.verifyLogoutMenuOpens()'><b>verifyLogoutMenuOpens</b><br>Test class: SauceLogout.LogoutPositiveTest<br/>
+<a href="#Output-1528782796" onClick='toggleBox("Output-1528782796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1528782796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1528782796">
+PASS: Logout menu opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SauceLogout.LogoutPositiveTest@fa36558</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyBackpackInCart()'><b>verifyBackpackInCart</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-1917579871" onClick='toggleBox("Output-1917579871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917579871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917579871">
+PASS: Backpack verified in cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SauceLogout.LogoutPositiveTest.verifyLoginPageAfterLogout()'><b>verifyLoginPageAfterLogout</b><br>Test class: SauceLogout.LogoutPositiveTest<br/>
+<a href="#Output-1940816602" onClick='toggleBox("Output-1940816602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1940816602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1940816602">
+PASS: Login page displayed after logout<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SauceLogout.LogoutPositiveTest@fa36558</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductNegativeTest.verifyRemoveButtonBeforeAddingProduct()'><b>verifyRemoveButtonBeforeAddingProduct</b><br>Test class: SAUCEPRODUCT.ProductNegativeTest<br/>
+<a href="#Output-2050320909" onClick='toggleBox("Output-2050320909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2050320909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2050320909">
+PASS: Product cannot be removed before being added<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SAUCEPRODUCT.ProductNegativeTest@68567e20</td></tr>
+<tr>
+<td title='SauceLogout.LogoutNegativeTest.verifyLogoutOptionBeforeOpeningMenu()'><b>verifyLogoutOptionBeforeOpeningMenu</b><br>Test class: SauceLogout.LogoutNegativeTest<br/>
+<a href="#Output-1924563758" onClick='toggleBox("Output-1924563758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1924563758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1924563758">
+PASS: Logout option hidden while menu is closed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SauceLogout.LogoutNegativeTest@7c1e2a9e</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyProductPageTitle()'><b>verifyProductPageTitle</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-269685385" onClick='toggleBox("Output-269685385", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-269685385" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-269685385">
+PASS: Product page title verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SauceLogout.LogoutNegativeTest.verifyProductPageAfterLogout()'><b>verifyProductPageAfterLogout</b><br>Test class: SauceLogout.LogoutNegativeTest<br/>
+<a href="#Output-989896315" onClick='toggleBox("Output-989896315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-989896315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-989896315">
+PASS: Product page is no longer the current page after logout<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SauceLogout.LogoutNegativeTest@7c1e2a9e</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifyLogoutFromProductPage()'><b>verifyLogoutFromProductPage</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-1415390560" onClick='toggleBox("Output-1415390560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1415390560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1415390560">
+PASS: Logout completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductNegativeTest.verifyInvalidSortOption()'><b>verifyInvalidSortOption</b><br>Test class: SAUCEPRODUCT.ProductNegativeTest<br/>
+<a href="#Output-170106909" onClick='toggleBox("Output-170106909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-170106909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-170106909">
+PASS: Invalid sort option rejected<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SAUCEPRODUCT.ProductNegativeTest@68567e20</td></tr>
+<tr>
+<td title='SAUCEPRODUCT.ProductPositiveTest.verifySortPriceLowToHigh()'><b>verifySortPriceLowToHigh</b><br>Test class: SAUCEPRODUCT.ProductPositiveTest<br/>
+<a href="#Output-1841440668" onClick='toggleBox("Output-1841440668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1841440668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1841440668">
+PASS: Prices sorted low to high<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SAUCEPRODUCT.ProductPositiveTest@76ed1b7c</td></tr>
+</table><p>
+</body>
+</html>

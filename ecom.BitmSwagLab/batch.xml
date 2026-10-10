@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Batch Execution Suite">
+    <test name="Login Product Checkout Logout">
+        <packages>
+            <package name="SAUCELOGINPAGE"/>
+            <package name="SAUCEPRODUCT"/>
+            <package name="SAUCECHECKOUT"/>
+            <package name="SauceLogout"/>
+        </packages>
+    </test>
+</suite>

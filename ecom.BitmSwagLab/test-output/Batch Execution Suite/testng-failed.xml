@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch Execution Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Product Checkout Logout(failed)">
+    <classes>
+      <class name="SAUCECHECKOUT.CheckoutNegativeTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="verifyCheckoutValidation" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCECHECKOUT.CheckoutNegativeTest -->
+      <class name="SAUCELOGINPAGE.LoginPositiveTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="functionalLoginTest"/>
+          <include name="closeDatabaseConnectivity"/>
+          <include name="smokeLoginTest"/>
+          <include name="integrationLoginTest"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginPositiveTest -->
+      <class name="SAUCELOGINPAGE.LoginNegativeTest">
+        <methods>
+          <include name="openDatabaseConnectivity"/>
+          <include name="closeBrowser"/>
+          <include name="functionalNegativeLoginTest"/>
+          <include name="smokeNegativeLoginTest"/>
+          <include name="launchBrowser"/>
+          <include name="integrationNegativeLoginTest"/>
+          <include name="closeDatabaseConnectivity"/>
+        </methods>
+      </class> <!-- SAUCELOGINPAGE.LoginNegativeTest -->
+    </classes>
+  </test> <!-- Login Product Checkout Logout(failed) -->
+</suite> <!-- Failed suite [Batch Execution Suite] -->

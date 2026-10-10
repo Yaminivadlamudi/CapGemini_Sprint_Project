@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Testing(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SAUCECHECKOUT.CheckoutTS3">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verifyBackHomeButton"/>
+          <include name="closeBrowser"/>
+          <include name="postCondition"/>
+          <include name="launchBrowser"/>
+          <include name="preCondition"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- SAUCECHECKOUT.CheckoutTS3 -->
+      <class name="SAUCEPRODUCT.ProductTest">
+        <methods>
+          <include name="verifyProductPage"/>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="postCondition"/>
+          <include name="launchBrowser"/>
+          <include name="preCondition"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- SAUCEPRODUCT.ProductTest -->
+      <class name="SAUCECHECKOUT.CheckoutTS2">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="closeBrowser"/>
+          <include name="postCondition"/>
+          <include name="launchBrowser"/>
+          <include name="preCondition"/>
+          <include name="verifyFinishButton"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- SAUCECHECKOUT.CheckoutTS2 -->
+    </classes>
+  </test> <!-- Smoke Testing(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

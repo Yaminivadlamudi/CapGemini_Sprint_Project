@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="29" passed="13" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Automation suite started.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Unadded product is absent from cart]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Negative test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyUnaddedProductNotInCart]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: Missing first name negative checkout]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Login successful]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Checkout information page opened]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Missing first-name validation verified. Message: Error: First Name is required]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Negative test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyCheckoutValidation]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Product page is no longer the current page after logout]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Negative test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyProductPageAfterLogout]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Backpack verified in cart]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyBackpackInCart]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Checkout information page opened]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyCheckoutNavigation]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Backpack removed from cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyRemoveBackpackFromCart]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Products sorted A to Z]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySortNameAToZ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Products sorted Z to A]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySortNameZToA]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Prices sorted high to low]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySortPriceHighToLow]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Prices sorted low to high]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySortPriceLowToHigh]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: Valid login and checkout]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Login successful]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Checkout overview displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Order summary verified]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Order completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Returned to products page]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Smoke test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySuccessfulCheckout]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Login page displayed after logout]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifyLoginPageAfterLogout]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: chrome browser launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: User logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Functional test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Integration test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Smoke test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Test completed - verifySuccessfulLogout]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Automation suite completed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T11:25:10 IST" name="Integration Suite" finished-at="2026-10-10T11:26:02 IST" duration-ms="51290">
+    <groups>
+      <group name="functional">
+        <method signature="CheckoutNegativeTest.verifyCheckoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" name="verifyCheckoutValidation" class="SAUCECHECKOUT.CheckoutNegativeTest"/>
+        <method signature="CheckoutPositiveTest.verifySuccessfulCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" name="verifySuccessfulCheckout" class="SAUCECHECKOUT.CheckoutPositiveTest"/>
+        <method signature="ProductPositiveTest.verifyBackpackInCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyBackpackInCart" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifyCheckoutNavigation()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyCheckoutNavigation" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifyRemoveBackpackFromCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyRemoveBackpackFromCart" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortNameAToZ()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortNameAToZ" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortNameZToA()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortNameZToA" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortPriceHighToLow()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortPriceHighToLow" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortPriceLowToHigh()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortPriceLowToHigh" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="LogoutNegativeTest.verifyProductPageAfterLogout()[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" name="verifyProductPageAfterLogout" class="SauceLogout.LogoutNegativeTest"/>
+        <method signature="LogoutPositiveTest.verifyLoginPageAfterLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" name="verifyLoginPageAfterLogout" class="SauceLogout.LogoutPositiveTest"/>
+        <method signature="LogoutPositiveTest.verifySuccessfulLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" name="verifySuccessfulLogout" class="SauceLogout.LogoutPositiveTest"/>
+      </group> <!-- functional -->
+      <group name="negative">
+        <method signature="CheckoutNegativeTest.verifyCheckoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" name="verifyCheckoutValidation" class="SAUCECHECKOUT.CheckoutNegativeTest"/>
+        <method signature="ProductNegativeTest.verifyUnaddedProductNotInCart()[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20]" name="verifyUnaddedProductNotInCart" class="SAUCEPRODUCT.ProductNegativeTest"/>
+        <method signature="LogoutNegativeTest.verifyProductPageAfterLogout()[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" name="verifyProductPageAfterLogout" class="SauceLogout.LogoutNegativeTest"/>
+      </group> <!-- negative -->
+      <group name="smoke">
+        <method signature="CheckoutPositiveTest.verifySuccessfulCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" name="verifySuccessfulCheckout" class="SAUCECHECKOUT.CheckoutPositiveTest"/>
+        <method signature="LogoutPositiveTest.verifySuccessfulLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" name="verifySuccessfulLogout" class="SauceLogout.LogoutPositiveTest"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="CheckoutNegativeTest.verifyCheckoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" name="verifyCheckoutValidation" class="SAUCECHECKOUT.CheckoutNegativeTest"/>
+        <method signature="CheckoutPositiveTest.verifySuccessfulCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" name="verifySuccessfulCheckout" class="SAUCECHECKOUT.CheckoutPositiveTest"/>
+        <method signature="LoginNegativeTest.integrationNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCELOGINPAGE.LoginNegativeTest@610f7aa]" name="integrationNegativeLoginTest" class="SAUCELOGINPAGE.LoginNegativeTest"/>
+        <method signature="LoginPositiveTest.integrationLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCELOGINPAGE.LoginPositiveTest@17a7f733]" name="integrationLoginTest" class="SAUCELOGINPAGE.LoginPositiveTest"/>
+        <method signature="ProductNegativeTest.verifyUnaddedProductNotInCart()[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20]" name="verifyUnaddedProductNotInCart" class="SAUCEPRODUCT.ProductNegativeTest"/>
+        <method signature="ProductPositiveTest.verifyBackpackInCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyBackpackInCart" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifyCheckoutNavigation()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyCheckoutNavigation" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifyRemoveBackpackFromCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifyRemoveBackpackFromCart" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortNameAToZ()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortNameAToZ" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortNameZToA()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortNameZToA" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortPriceHighToLow()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortPriceHighToLow" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="ProductPositiveTest.verifySortPriceLowToHigh()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" name="verifySortPriceLowToHigh" class="SAUCEPRODUCT.ProductPositiveTest"/>
+        <method signature="LogoutNegativeTest.verifyProductPageAfterLogout()[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" name="verifyProductPageAfterLogout" class="SauceLogout.LogoutNegativeTest"/>
+        <method signature="LogoutPositiveTest.verifyLoginPageAfterLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" name="verifyLoginPageAfterLogout" class="SauceLogout.LogoutPositiveTest"/>
+        <method signature="LogoutPositiveTest.verifySuccessfulLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" name="verifySuccessfulLogout" class="SauceLogout.LogoutPositiveTest"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-10T11:25:10 IST" name="Integration Tests" finished-at="2026-10-10T11:26:02 IST" duration-ms="51290">
+      <class name="SAUCECHECKOUT.CheckoutPositiveTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" started-at="2026-10-10T11:25:48 IST" name="launchBrowser" finished-at="2026-10-10T11:25:50 IST" duration-ms="1710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySuccessfulCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" started-at="2026-10-10T11:25:50 IST" name="verifySuccessfulCheckout" data-provider="positiveCheckoutData" finished-at="2026-10-10T11:25:55 IST" duration-ms="4600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ramul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[583101]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Valid login and checkout]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Scenario: Valid login and checkout]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Login successful]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Checkout overview displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Order summary verified]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Order completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Returned to products page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulCheckout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528]" started-at="2026-10-10T11:25:55 IST" name="closeBrowser" finished-at="2026-10-10T11:25:55 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulCheckout status=SUCCESS method=CheckoutPositiveTest.verifySuccessfulCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutPositiveTest@394a2528] output=Scenario: Valid login and checkout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Smoke test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySuccessfulCheckout]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SAUCECHECKOUT.CheckoutPositiveTest -->
+      <class name="SAUCECHECKOUT.CheckoutNegativeTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" started-at="2026-10-10T11:25:19 IST" name="launchBrowser" finished-at="2026-10-10T11:25:22 IST" duration-ms="2712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" started-at="2026-10-10T11:25:22 IST" name="verifyCheckoutValidation" data-provider="negativeCheckoutData" finished-at="2026-10-10T11:25:23 IST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[567132]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Missing first name negative checkout]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CHECKOUT_ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Scenario: Missing first name negative checkout]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Login successful]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Checkout information page opened]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Missing first-name validation verified. Message: Error: First Name is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutValidation -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b]" started-at="2026-10-10T11:25:23 IST" name="closeBrowser" finished-at="2026-10-10T11:25:23 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutValidation status=SUCCESS method=CheckoutNegativeTest.verifyCheckoutValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCECHECKOUT.CheckoutNegativeTest@11fc564b] output=Scenario: Missing first name negative checkout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Negative test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyCheckoutValidation]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SAUCECHECKOUT.CheckoutNegativeTest -->
+      <class name="SauceLogout.LogoutNegativeTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" started-at="2026-10-10T11:25:23 IST" name="launchBrowser" finished-at="2026-10-10T11:25:25 IST" duration-ms="1766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductPageAfterLogout()[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" started-at="2026-10-10T11:25:25 IST" name="verifyProductPageAfterLogout" finished-at="2026-10-10T11:25:26 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Product page is no longer the current page after logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageAfterLogout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e]" started-at="2026-10-10T11:25:26 IST" name="closeBrowser" finished-at="2026-10-10T11:25:26 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPageAfterLogout status=SUCCESS method=LogoutNegativeTest.verifyProductPageAfterLogout()[pri:0, instance:SauceLogout.LogoutNegativeTest@7c1e2a9e] output=PASS: Product page is no longer the current page after logout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Negative test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyProductPageAfterLogout]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SauceLogout.LogoutNegativeTest -->
+      <class name="SAUCEPRODUCT.ProductNegativeTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20]" started-at="2026-10-10T11:25:10 IST" name="launchBrowser" finished-at="2026-10-10T11:25:13 IST" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUnaddedProductNotInCart()[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20]" started-at="2026-10-10T11:25:13 IST" name="verifyUnaddedProductNotInCart" finished-at="2026-10-10T11:25:17 IST" duration-ms="3531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Unadded product is absent from cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUnaddedProductNotInCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20]" started-at="2026-10-10T11:25:17 IST" name="closeBrowser" finished-at="2026-10-10T11:25:17 IST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnaddedProductNotInCart status=SUCCESS method=ProductNegativeTest.verifyUnaddedProductNotInCart()[pri:0, instance:SAUCEPRODUCT.ProductNegativeTest@68567e20] output=PASS: Unadded product is absent from cart]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Negative test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyUnaddedProductNotInCart]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SAUCEPRODUCT.ProductNegativeTest -->
+      <class name="SAUCELOGINPAGE.LoginNegativeTest">
+        <test-method is-config="true" signature="openDatabaseConnectivity()[pri:0, instance:SAUCELOGINPAGE.LoginNegativeTest@610f7aa]" started-at="2026-10-10T11:25:10 IST" name="openDatabaseConnectivity" finished-at="2026-10-10T11:25:10 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automation suite started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openDatabaseConnectivity -->
+        <test-method signature="integrationNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCELOGINPAGE.LoginNegativeTest@610f7aa]" started-at="2026-10-10T11:25:10 IST" name="integrationNegativeLoginTest" finished-at="2026-10-10T11:25:10 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void SAUCELOGINPAGE.LoginNegativeTest.integrationNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : negativeLoginData in class SAUCECHECKOUT.DataProviderClass]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginNegativeTest.integrationNegativeLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : negativeLoginData in class SAUCECHECKOUT.DataProviderClass
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationNegativeLoginTest -->
+        <test-method is-config="true" signature="closeDatabaseConnectivity()[pri:0, instance:SAUCELOGINPAGE.LoginNegativeTest@610f7aa]" started-at="2026-10-10T11:26:02 IST" name="closeDatabaseConnectivity" finished-at="2026-10-10T11:26:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Automation suite completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDatabaseConnectivity -->
+      </class> <!-- SAUCELOGINPAGE.LoginNegativeTest -->
+      <class name="SAUCELOGINPAGE.LoginPositiveTest">
+        <test-method signature="integrationLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SAUCELOGINPAGE.LoginPositiveTest@17a7f733]" started-at="2026-10-10T11:25:26 IST" name="integrationLoginTest" finished-at="2026-10-10T11:25:26 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void SAUCELOGINPAGE.LoginPositiveTest.integrationLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : positiveLoginData in class SAUCECHECKOUT.DataProviderClass]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void SAUCELOGINPAGE.LoginPositiveTest.integrationLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : positiveLoginData in class SAUCECHECKOUT.DataProviderClass
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationLoginTest -->
+      </class> <!-- SAUCELOGINPAGE.LoginPositiveTest -->
+      <class name="SauceLogout.LogoutPositiveTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:25:55 IST" name="launchBrowser" finished-at="2026-10-10T11:25:57 IST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginPageAfterLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:25:57 IST" name="verifyLoginPageAfterLogout" finished-at="2026-10-10T11:25:58 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Login page displayed after logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageAfterLogout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:25:58 IST" name="closeBrowser" finished-at="2026-10-10T11:25:59 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageAfterLogout status=SUCCESS method=LogoutPositiveTest.verifyLoginPageAfterLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558] output=PASS: Login page displayed after logout]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyLoginPageAfterLogout]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:25:59 IST" name="launchBrowser" finished-at="2026-10-10T11:26:00 IST" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySuccessfulLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:26:00 IST" name="verifySuccessfulLogout" finished-at="2026-10-10T11:26:01 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: User logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558]" started-at="2026-10-10T11:26:01 IST" name="closeBrowser" finished-at="2026-10-10T11:26:02 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulLogout status=SUCCESS method=LogoutPositiveTest.verifySuccessfulLogout()[pri:0, instance:SauceLogout.LogoutPositiveTest@fa36558] output=PASS: User logged out successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Smoke test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySuccessfulLogout]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SauceLogout.LogoutPositiveTest -->
+      <class name="SAUCEPRODUCT.ProductPositiveTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:26 IST" name="launchBrowser" finished-at="2026-10-10T11:25:28 IST" duration-ms="2079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyBackpackInCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:28 IST" name="verifyBackpackInCart" finished-at="2026-10-10T11:25:29 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Backpack verified in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBackpackInCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:29 IST" name="closeBrowser" finished-at="2026-10-10T11:25:29 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackpackInCart status=SUCCESS method=ProductPositiveTest.verifyBackpackInCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Backpack verified in cart]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyBackpackInCart]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:29 IST" name="launchBrowser" finished-at="2026-10-10T11:25:31 IST" duration-ms="1711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutNavigation()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:31 IST" name="verifyCheckoutNavigation" finished-at="2026-10-10T11:25:32 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Checkout information page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutNavigation -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:32 IST" name="closeBrowser" finished-at="2026-10-10T11:25:32 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutNavigation status=SUCCESS method=ProductPositiveTest.verifyCheckoutNavigation()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Checkout information page opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyCheckoutNavigation]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:32 IST" name="launchBrowser" finished-at="2026-10-10T11:25:33 IST" duration-ms="1543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyRemoveBackpackFromCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:33 IST" name="verifyRemoveBackpackFromCart" finished-at="2026-10-10T11:25:37 IST" duration-ms="3567" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Backpack removed from cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveBackpackFromCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:37 IST" name="closeBrowser" finished-at="2026-10-10T11:25:37 IST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveBackpackFromCart status=SUCCESS method=ProductPositiveTest.verifyRemoveBackpackFromCart()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Backpack removed from cart successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifyRemoveBackpackFromCart]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:37 IST" name="launchBrowser" finished-at="2026-10-10T11:25:40 IST" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortNameAToZ()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:40 IST" name="verifySortNameAToZ" finished-at="2026-10-10T11:25:40 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Products sorted A to Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortNameAToZ -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:40 IST" name="closeBrowser" finished-at="2026-10-10T11:25:40 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortNameAToZ status=SUCCESS method=ProductPositiveTest.verifySortNameAToZ()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Products sorted A to Z]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySortNameAToZ]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:40 IST" name="launchBrowser" finished-at="2026-10-10T11:25:43 IST" duration-ms="2313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortNameZToA()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:43 IST" name="verifySortNameZToA" finished-at="2026-10-10T11:25:43 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Products sorted Z to A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortNameZToA -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:43 IST" name="closeBrowser" finished-at="2026-10-10T11:25:44 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortNameZToA status=SUCCESS method=ProductPositiveTest.verifySortNameZToA()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Products sorted Z to A]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySortNameZToA]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:44 IST" name="launchBrowser" finished-at="2026-10-10T11:25:45 IST" duration-ms="1579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortPriceHighToLow()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:45 IST" name="verifySortPriceHighToLow" finished-at="2026-10-10T11:25:46 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Prices sorted high to low]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortPriceHighToLow -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:46 IST" name="closeBrowser" finished-at="2026-10-10T11:25:46 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortPriceHighToLow status=SUCCESS method=ProductPositiveTest.verifySortPriceHighToLow()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Prices sorted high to low]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySortPriceHighToLow]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:46 IST" name="launchBrowser" finished-at="2026-10-10T11:25:48 IST" duration-ms="1650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: chrome browser launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortPriceLowToHigh()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:48 IST" name="verifySortPriceLowToHigh" finished-at="2026-10-10T11:25:48 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Prices sorted low to high]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortPriceLowToHigh -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c]" started-at="2026-10-10T11:25:48 IST" name="closeBrowser" finished-at="2026-10-10T11:25:48 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortPriceLowToHigh status=SUCCESS method=ProductPositiveTest.verifySortPriceLowToHigh()[pri:0, instance:SAUCEPRODUCT.ProductPositiveTest@76ed1b7c] output=PASS: Prices sorted low to high]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Functional test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Integration test case passed.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Test completed - verifySortPriceLowToHigh]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SAUCEPRODUCT.ProductPositiveTest -->
+    </test> <!-- Integration Tests -->
+  </suite> <!-- Integration Suite -->
+</testng-results>
